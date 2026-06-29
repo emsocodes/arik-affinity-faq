@@ -1,0 +1,110 @@
+.membership-table {
+  border-collapse: collapse;
+  width: 100%;             
+  max-width: 850px;        
+  margin: 40px auto;      
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+}
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f8fafc; 
+}
+
+.membership-table th, 
+.membership-table td {
+  border: 1px solid #cbd5e1;
+  padding: 14px;
+  vertical-align: top;
+  text-align: left;
+}
+
+
+.membership-table th.main-header {
+  background-color: #0A2540; 
+  color: #FFFFFF;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.membership-table th.tier-header {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.card-icon {
+  display: block;
+  margin: 6px auto 0 auto;
+  width: 35px;
+  height: auto;
+}
+
+
+
+
+.pearl-theme {
+  background-color: #f1f5f9; 
+  color: #334155;
+}
+th.pearl-theme {
+  background-color: #cbd5e1; 
+  color: #1e293b;
+}
+
+
+.bronze-theme {
+  background-color: #fdf6f0;
+  color: #7c2d12;
+}
+th.bronze-theme {
+  background-color: #cd7f32; 
+  color: #ffffff;
+}
+
+
+.silver-theme {
+  background-color: #f8fafc;
+  color: #475569;
+}
+th.silver-theme {
+  background-color: #94a3b8; 
+  color: #ffffff;
+}
+
+
+.gold-theme {
+  background-color: #fefcbf; 
+  color: #713f12;
+}
+th.gold-theme {
+  background-color: #d4af37; 
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+.accordion-button:not(.collapsed) {
+  background-color: #f8fafc !important;
+  color: #7D2248 !important; 
+  box-shadow: none !important;
+}
+
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%237D2248'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: rgba(0, 56, 130, 0.1) !important;
+}
